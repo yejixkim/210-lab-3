@@ -54,7 +54,24 @@ int main()
     Restaurant restaurant3;
     Restaurant restaurant4;
 
-    
+    //first function
+    cout << "Enter information for Restaurant 1: " << endl;
+    restaurant1 = createRestaurant();
 
+    cout << "Enter information for Restaurant 2: " << endl;
+    restaurant2 = createRestaurant();
 
+    cout << "Enter information for Restaurant 3: " << endl;
+    restaurant3 = createRestaurant();
+
+    cout << "Enter information for Restaurant 4: " << endl;
+    restaurant4 = createRestaurant();
+
+    // display restaurants
+    displayRestaurant(restaurant1);
+    displayRestaurant(restaurant2);
+    displayRestaurant(restaurant3);
+    displayRestaurant(restaurant4);
+
+    return 0;
 }
